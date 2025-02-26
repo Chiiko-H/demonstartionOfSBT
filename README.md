@@ -31,9 +31,9 @@ npx hardhat run scripts/mint.js --network localhost
 ### フロントエンド
 
 - デプロイ先のコントラクトアドレスを以下ファイルのCONTRACT_ADDRESSに設定してください。
-    .\frontend\src\utils\blockchain.ts    
+    - .\frontend\src\utils\blockchain.ts    
 - スマートコントラクト側でデプロイ時に作成されたartifacts配下にあるjsonを以下のファイルと置き換えてください。
-    .\frontend\src\contracts\SBTGame.json
+    - .\frontend\src\contracts\SBTGame.json
 - 別ターミナルにて以下を実行
 
 ```
