@@ -17,7 +17,7 @@
     name: "NetworkChecker",
     setup() {
       // Amoy = 80002 , Hardhat local = 31337
-      const expectedChainId: number = 31337; //80002;
+      const expectedChainId: number = 31337; 
       const isCorrectNetwork = ref<boolean | null>(null);
       let nwName = "Unknown";
       switch(expectedChainId){

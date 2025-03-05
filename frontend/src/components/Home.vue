@@ -21,6 +21,7 @@
         <Game v-if="activeTab === 'game'" />
         <NWCheck v-else-if="activeTab === 'nwcheck'" />
         <SBTList v-else-if="activeTab === 'sbtList'" />
+
       </div>
     </div>
   </template>

@@ -60,8 +60,8 @@
        * ステージが失敗したときの処理
        */
       const handleStageFail = () => {
-        alert("ゲームオーバー！リスタートします。");
-        restartGame();
+        // alert("ゲームオーバー！リスタートします。");
+        // restartGame();
       };
   
       /**
